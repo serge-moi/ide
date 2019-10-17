@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Slabo+27px">
+	<link rel="stylesheet" href="css/ide2.css" />
+	<title>ide2</title>
+</head>
+<body>
+	<!--HEADER-->
+	<header>
+		<h1>Sublime Text</h1>
+		<nav class="container">
+			<a href="https://download.sublimetext.com/Sublime Text Build 3211 x64 Setup.exe">Télécharger</a>
+			<a href="https://www.sublimetext.com/blog/">Nouveautés</a>
+			<a href="https://forum.sublimetext.com/">Forum</a>
+		</nav>
+	</header>
+	<!--MAIN CONTENT-->
+	<div class="container">
+		<section id="presentation">
+			<h2 id="blink">Bienvenue sur Sublime Text</h2>
+			<p>Sublime Text propose aux développeurs un éditeur de texte qui se démarque des autres par son interface et ses fonctionnalités. L’application supporte la coloration syntaxique selon les langages de programmation utilisés.</p>
+			<p>Sublime Text dispose d’une interface pratique qui comprend un panel avec l’arborescence des dossiers des différentes sources éditées. Ensuite, on retrouve la gestion d’onglets pour un accès rapide aux fichiers en cours d’édition.</p>
+			<p>Sublime Text offre des fonctionnalités d’édition avancées telles que la modification de variables instantanées ou encore l’affichage en miniature du code sur un volet à droite du texte édité..</p>
+		</section>
+		<main id="maincont">
+			<h3>Les fonctionnalités favorites</h3>
+			<article>
+				<h4>goto anything</h4>
+				<img id="anyimg" src="images/gotoanything.jpg" alt="goto_anything" />
+				<p>Utilisez Goto Anything pour ouvrir des fichiers en quelques touches seulement et accéder instantanément à des symboles, des lignes ou des mots.</p>
+				<p>Déclenchée avec <span>Ctrl</span> + <span>P</span>, il est possible de:</p>
+				<ul>
+					<li>Tapez une partie d'un nom de fichier pour l'ouvrir.</li>
+					<li>Saisissez <span>@</span> pour accéder aux symboles, <span>#</span> pour effectuer une recherche dans le fichier et <span>:</span> pour accéder à un numéro de ligne.</li>
+				</ul>
+				<p>Ces raccourcis peuvent être combinés. Ainsi, <span>tp@rf</span> 
+					peut vous amener à une fonction read_file dans un fichier text_parser.py. De même, <span>tp:100</span> 
+					vous amènerait à la ligne 100 du même fichier.</p>
+			</article>
+			<article>
+				<h4>multiple selections</h4>
+				<img id="msgif" src="images/multiselect.gif" alt="multiselect" />
+				<p>Faites dix changements en même temps, pas un changement dix fois. Les sélections multiples vous permettent de modifier de manière interactive plusieurs lignes à la fois, de renommer facilement des variables et de manipuler des fichiers plus rapidement que jamais.</p>
+				<p>Essayez d'appuyer sur <span>Ctrl</span> + <span>Maj</span> + <span>L</span> pour scinder la sélection en lignes et sur <spann>Ctrl</spann> + <span>D</span> pour sélectionner l'occurrence suivante du mot sélectionné. Pour effectuer plusieurs sélections à l'aide de la souris, consultez la documentation <a href="https://www.sublimetext.com/docs/2/column_selection.html" target="_blank">sélection de colonnes.</a></p>
+			</article>
+			<article>
+				<h4>palette de commandes</h4>
+				<img src="images/commandpalette.jpg" alt="compalette" />
+				<p>La palette de commandes contient les fonctionnalités rarement utilisées, telles que le tri, la modification de la syntaxe et les paramètres d'indentation. En quelques touches seulement, vous pouvez rechercher ce que vous voulez, sans avoir à naviguer dans les menus ou à vous souvenir des raccourcis clavier.</p>
+				<p>
+					Affichez la palette de commandes avec <span>Ctrl</span>+<span>Shift</span>+<span>P</span>.</p>
+			</article>
+			<article>
+				<h4>goto definition</h4>
+				<img src="images/gototo.gif" alt="gototo" />
+				<p>En utilisant les informations des définitions de syntaxe, Sublime Text génère automatiquement un index à l'échelle du projet de chaque classe, méthode et fonction. Cet indice alimente Goto Definition, qui est exposé de trois manières différentes:</p>
+				<ul>
+					<li>Un popup est affiché lors du survol d'un symbole</li>
+					<li>Pressage<span>F12</span> quand le curseur est sur un symbole</li>
+					<li>La fonctionnalité Goto Symbol in Project</li>
+				</ul>
+				<p>L'indexation des symboles peut être personnalisée syntaxiquement à l'aide de fichiers de configuration, permettant aux utilisateurs d'adapter la fonctionnalité à leurs besoins.</p>
+			</article>
+		</main><!--
+	 --><aside>
+			<img id="vignette" src="images/Sublime.png" alt="SublimeText" />
+			<h2>Vidéos</h2>
+			<article>
+				<iframe width="220" height="160" src="https://www.youtube.com/embed/SOv9emTErzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</article>
+			<article>
+				<iframe width="220" height="160" src="https://www.youtube.com/embed/GPhLRmmSpBY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</article>
+			<article>
+				<iframe width="220" height="160" src="https://www.youtube.com/embed/lYfjtuTRjsI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</article>
+		</aside>
+	</div>
+	<footer>
+		<div id="footcont">
+			<nav>© <a href="">Sublime HQ Pty Ltd</a></nav>
+			<p id="foot-p">Woollahra, Sydney.</p>
+		</div>
+	</footer>
+</body>
+</html>

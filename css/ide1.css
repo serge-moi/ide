@@ -1,0 +1,240 @@
+/*GLOBAL */
+* {
+	box-sizing: border-box;
+	outline: none;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+
+/* BODY */
+
+
+body {
+	background: #F2F1F4;
+	font-family: "Open Sans", Arial;
+	margin: 0;
+	color: #6a6d70;
+	font-size: 1.6rem;
+	line-height: 1.8;
+}
+
+
+/* HEADER */
+
+
+.container {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+}
+
+h1{
+	font-family: "PT Sans Narrow";
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 20px;
+}
+
+button{
+	border: none;
+	padding: 18px;
+	font-size: 20px;
+	background-color: #2101e7;
+}
+
+button:hover{
+	color: white;
+	background-color:#130869;
+}
+
+#lienbut{
+	text-decoration: none;
+	color: white;
+}
+
+#headimg{
+	max-width: 70%;
+}
+
+.rotateIn {
+	animation-name: rotateIn;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes rotateIn {
+	from {
+	  transform-origin: center;
+	  transform: rotate3d(0, 0, 1, -200deg);
+	  opacity: 0;
+	}
+  
+	to {
+	  transform-origin: center;
+	  transform: translate3d(0, 0, 0);
+	  opacity: 1;
+	}
+}
+  
+#lienpara{
+	text-decoration: none;
+	color: #2101e7;
+	font-weight: bold;
+}
+
+#lienpara:hover{
+	color:#130869;
+}
+
+#git{
+	color: black;
+    position: absolute;
+    font-size: 60px;
+	margin-top: -525px;
+    margin-left: 280px;
+}
+
+#twit{
+	color: #1DA1F2;
+    position: absolute;
+    font-size: 60px;
+	margin-top: -523px;
+    margin-left: 350px;
+}
+
+
+/* MAIN */
+
+
+.maincont{
+	width: 80%;
+    margin: auto;
+}
+
+section {
+	width: 70%;
+	display: inline-block;
+	vertical-align: top;
+	padding: 25px 25px 25px 0;
+}
+
+section img {
+	margin-bottom: 20px;
+	border-radius: 6px;
+}
+
+picture{
+	display: flex;
+    justify-content: center;
+}
+
+h2, h3 {
+	font-family: "PT Sans Narrow";
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 0;
+	border-bottom: 1px solid #30A894;
+	color: #30A894;
+}
+
+h2 {
+	font-size: 4rem;
+}
+
+h3 {
+	font-size: 2.4rem;
+	margin: 0;
+}
+
+p {
+	margin: 15px 0;
+}
+
+#discover{
+	text-decoration: none;
+    color: #044167;
+    font-weight: bold;
+}
+
+aside {
+	padding: 25px;
+	background-color: #d7e9cb;
+	color: #314C35;
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	margin-top: 1.9%;
+	box-shadow: 1px 1px 10px;
+}
+
+#sec2{
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: 1px solid black;
+    box-shadow: 1px 1px 13px black;
+    margin-top: 40px;
+}
+#artsec2{
+	display: flex;
+	justify-content: space-between;
+}
+
+#artsec2 .screen{
+	width: 33%;
+    margin: 0;
+	box-shadow: 1px 1Px 5px #000000;
+    border: 4px ridge darkblue;
+}
+
+
+#artsec2:hover .screen{
+	transition: all 0.2s ease-out;
+	opacity: 0.5;
+	z-index: 1;
+}
+
+#artsec2:hover .screen:hover{
+	transition: all 0.2s ease-out;
+	opacity: 1;
+	transform: scale(1.5);
+	z-index: 2;
+	box-shadow: none;
+}
+
+
+/* FOOTER */
+
+footer{
+	background-color: black;
+}
+
+#footp1{
+	text-align: center;
+    padding: 23px;
+    width: 1170px;
+    margin: 0 auto;
+    color: gray;
+    margin-top: 55px;
+	font-size: 14px;
+}
+
+#foot-a1{
+	text-decoration: none;
+	color: #1DA1F2;
+}
+
+#foot-a1:hover{
+	color: white;
+}
+
+
+/* FIIIIIIN PLOUF */
+

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kaushan+Script|Playfair+Display">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script>
+		$(window).on('load', function() {
+			$('.flexslider').flexslider({
+				directionNav: true,
+				controlNav: true
+			});
+		});
+	</script>
+	<link href="css/fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="css/fontawesome/css/brands.css" rel="stylesheet">		
+	<link href="css/fontawesome/css/solid.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/flexslider.css">
+	<link rel="stylesheet" href="css/ide3.css">
+	<title>ide3</title>
+</head>
+<body>
+	<!--HEADER-->
+	<header>
+		<nav id="headnav">
+			<div id="vsdiv">
+				<a id="vscode" href="#"><img id="vsimg" src="images/vscode.png" alt="vscode">Visual Studio Code </a>
+			</div>
+			<div id="midnav">
+				<a class="navlien" href="https://code.visualstudio.com/updates/v1_39">
+					Mise a jour
+				</a>
+				<a class="navlien" href="https://code.visualstudio.com/blogs/2019/10/03/remote-ssh-tips-and-tricks">
+					Blog
+				</a>
+				<a class="navlien" href="https://code.visualstudio.com/api">
+					Api
+				</a>
+				<a class="navlien" href="https://marketplace.visualstudio.com/VSCode">
+					Extensions
+				</a>
+			</div>
+			<div id="download">
+				<a id="liendl" href="https://code.visualstudio.com/Download"><i class="fas fa-arrow-alt-circle-down"></i> Télécharger</a>
+			</div>	
+		</nav>
+		<p class="promo"><strong>La version 1.39 est maintenant disponible! Lisez à propos des nouvelles fonctionnalités et des correctifs de septembre.</strong></p>
+		<h1 class="presentation">Bienvenue sur Visual Studio Code</h1>
+	</header>
+	<!--MAIN CONTENT-->
+	<main>
+		<section class="about">
+
+				<div class="flexslider">
+						<ul class="slides">
+							<li>
+								<img src="images/slide1.png" alt="Photo du slider" />
+								<h1>Auto-complétion</h1>
+								<p class="imgpara" >Code plus intelligent avec IntelliSense - Compléments pour les variables, les méthodes et les modules importés.</p>
+							</li>
+							<li>
+								<img src="images/slide3.png" alt="Photo du slider" />
+								<h1>Montage rapide et puissant</h1>
+								<p class="imgpara">Linting, édition multi-curseur, indications de paramètres et autres fonctionnalités d'édition puissantes.</p>
+							</li>
+							<li>
+								<img src="images/slide4.png" alt="Photo du slider" />
+								<h1>Navigation dans le code et refactoring</h1>
+								<p class="imgpara">Parcourez votre code source rapidement à l’aide de Peek et naviguez jusqu’à la définition.</p>
+							</li>
+							<li>
+								<img src="images/slide5.png" alt="Photo du slider" />
+								<h1>Contrôle de source intégré au produit</h1>
+								<p class="imgpara">Accélérez votre cycle de publication avec le support SCM dans votre éditeur, y compris l'intégration riche de Git.</p>
+							</li>
+						</ul>
+					</div>
+		<section>
+			<article id="topart">
+				Visual Studio Code est un éditeur de code source léger mais puissant qui s'exécute sur votre bureau et est disponible pour Windows, macOS et Linux. Il est livré avec un support intégré pour JavaScript, TypeScript et Node.js et possède un écosystème riche d'extensions pour d'autres langages (tels que C ++, C #, Java, Python, PHP, Go) et les environnements d'exécution (tels que .NET et Unity). . Commencez votre voyage avec VS Code avec ces vidéos d'introduction.
+			</article>
+		</section>
+		<article id="artcarre">
+			<div>
+				<h3>Survole le carré ci-dessous</h3>
+				<div class="circle">
+					<img src="images/camembert.png" />
+					<div class="mask-top-container">
+					<div class="mask-top"></div>
+					</div>
+					<div class="mask-bottom-container">
+					<div class="mask-bottom"></div>
+				</div>
+				</div>
+			</div>
+			<div id="carre">
+					<p id="paracar">Visual Studio Code est devenu un éditeur de code très populaire pour les développeurs Angular, en particulier ceux qui utilisent la CLI Angular. Des fonctionnalités telles que la coloration syntaxique et la saisie semi-automatique, la possibilité de déboguer le code directement dans l'éditeur, les commandes Git intégrées et la prise en charge des extensions font de VSCode l'un des éditeurs de code les plus populaires.</p>
+			</div>
+		</article>
+			<article id="art1" class="clear">
+				<img class="left" src="https://code.visualstudio.com/assets/images/home-intellisense.svg" alt=""/>
+				<h2>Rencontrez IntelliSense.</h2>
+				<p class="part">Allez au-delà de la coloration syntaxique et de la saisie semi-automatique avec IntelliSense, qui fournit des compléments intelligents basés sur les types de variable, les définitions de fonction et les modules importés.</p>
+			</article>
+			<article class="clear gray">
+				<img class="right" src="https://code.visualstudio.com/assets/images/home-debug.svg" alt="" />
+				<h2>Le débogage des instructions d'impression appartient au passé.</h2>
+				<p class="part">Déboguer le code directement depuis l'éditeur. Lancez ou attachez à vos applications en cours d'exécution et déboguez avec des points d'arrêt, des piles d'appels et une console interactive.</p>
+			</article>
+			<article class="clear">
+					<img class="left" src="https://code.visualstudio.com/assets/images/home-git.svg" alt=""/>
+					<h2>Commandes Git intégrées.</h2>
+					<p class="part">Travailler avec Git et d’autres fournisseurs SCM n’a jamais été aussi simple. Passez en revue les diffs, les fichiers de stage et effectuez des commits directement à partir de l'éditeur. Push and pull à partir de n'importe quel service SCM hébergé.</p>
+			</article>
+			<article class="clear gray">
+					<img class="rightimg" src="images/Hundreds-of-Extensions.png" alt="" />
+					<h2 id="rightitle">Extensible et personnalisable.</h2>
+					<p class="part pararight">Vous voulez encore plus de fonctionnalités? Installez des extensions pour ajouter de nouveaux langages, thèmes, débogueurs et vous connecter à des services supplémentaires. Les extensions sont exécutées dans des processus distincts, afin de ne pas ralentir votre éditeur. En savoir plus sur les extensions.</p>
+			</article>
+			<article class="clear">
+					<img class="left" src="https://code.visualstudio.com/assets/images/home-azure.svg" alt=""/>
+					<h2>Déployer avec confiance et facilité</h2>
+					<p class="part">Avec Microsoft Azure, vous pouvez déployer et héberger vos sites React, Angular, Vue, Node, Python (et plus encore!), Stocker et interroger des données relationnelles et documentaires, et évoluer avec une informatique sans serveur, le tout avec facilité, à partir de VS Code.</p>
+			</article>
+		</section>
+	</main>
+	<!--FOOTER-->
+	<footer>
+		<div id="footblock">
+			<h5>license and privacy terms</h5>
+			<p id="footpar">By downloading and using Visual Studio Code, you agree to the license terms and privacy statement. VS Code automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not to have this data sent please go see How to Disable Crash Reporting to learn how to disable it.
+			</p>
+		</div>
+	</footer>
+</body>
+</html>

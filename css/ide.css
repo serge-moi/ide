@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css?family=Frijole&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Slackey&display=swap');
+
+
+/* */
+
+
+* { box-sizing: border-box; }
+
+
+/* BODY */
+
+
+body{
+    background-image: url(../images/fond.jpg);
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+
+
+/* HEADER */
+
+
+
+nav{
+    position: fixed;
+    flex-direction: column;
+    height: 0%;
+    width: 35%;
+    margin-top: -180px;
+    margin-left: 1%;
+}
+
+#bracket, #sublim{
+    width: 12%;
+    margin-bottom: 20px;
+}
+
+#vscode{
+    width: 11%;
+}
+
+#bracket:hover, #sublim:hover, #vscode:hover{
+    transform: scale(1.2);
+}
+
+
+
+/* MAIN */
+
+
+
+.lien{
+    text-decoration: none;
+    font-family: 'Slackey', cursive;
+    text-decoration: none;
+    font-family: 'Slackey', cursive;
+    color: white;
+    text-shadow: 1px 3px 8px #0b1a1d;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    font-family: 'Frijole', cursive;
+    margin-bottom: 170px;
+    animation: shake 1.4s ease-in-out 3s;
+    font-size: 40px;
+    text-shadow: 1px 1px 5px khaki;
+}
+
+@keyframes shake {
+    from,
+    to {
+      transform: translate3d(0, 0, 0);
+    }
+  
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+      transform: translate3d(-10px, 0, 0);
+    }
+  
+    20%,
+    40%,
+    60%,
+    80% {
+      transform: translate3d(10px, 0, 0);
+    }
+}
+
+#brack{
+    background-image: url(../images/gifbrack.gif);
+    display: flex;
+    flex-grow: 1;
+    background-size: cover;
+    border-radius: 1000% 0% 0% 0%;
+    max-width: 450px;
+    box-shadow: -8px -4px 11px #235055;
+}
+
+#sub{
+    background-image: url(../images/gifsub.gif);
+    display: flex;
+    flex-grow: 1;
+    background-size: cover;
+    border-radius: 0% 1000% 0% 0%;
+    max-width: 450px;
+    box-shadow: 8px -4px 13px #340a3c;
+}
+
+#vs{
+    background-image: url(../images/gifvscode.gif);
+    display: flex;
+    flex-grow: 1;
+    background-size: cover;
+    border-radius: 0% 0% 0% 1000%;
+    max-width: 450px;
+    box-shadow: -6px 9px 10px black;
+}
+
+#brack:hover{
+    transform: scale(1.5);
+    animation-name: spin;
+    animation-duration: 1300ms;
+    animation-timing-function: linear;
+    border-radius: 0%; 
+}
+
+#sub:hover{
+    transform: scale(1.5);
+    animation-name: spin2;
+    animation-duration: 1300ms;
+    animation-timing-function: linear;
+    border-radius: 0%; 
+}
+
+#vs:hover{
+    transform: scale(1.5);
+    animation-name: spin3;
+    animation-duration: 1300ms;
+    animation-timing-function: linear;
+    border-radius: 0%; 
+}
+
+#sec{
+    display: flex;
+    height: 440px;
+    width: 900px;
+    margin: auto;
+}
+
+#sec2{
+    display: flex;
+    height: 440px;
+    width: 450px;
+    margin-left: 502px;
+}
+
+a{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+@keyframes spin { 
+    from { 
+        transform: rotate(0deg);
+        border-radius: 1000% 0% 0% 0%; 
+    } to { 
+        transform: rotate(360deg);
+        border-radius: 1000% 0% 0% 0%; 
+    }
+}
+
+@keyframes spin2 { 
+    from { 
+        transform: rotate(0deg);
+        border-radius: 0% 1000% 0% 0%;
+    } to { 
+        transform: rotate(360deg);
+        border-radius: 0% 1000% 0% 0%;
+    }
+}
+
+@keyframes spin3 { 
+    from { 
+        transform: rotate(0deg);
+        border-radius: 0% 0% 0% 1000%;
+    } to { 
+        transform: rotate(360deg);
+        border-radius: 0% 0% 0% 1000%;
+    }
+}
+
+
+
+
+/* FOOTER */
+
+
+
+footer{
+    background-color: #340a3c;
+    margin-top: 80px;
+    opacity: 0.7;
+    box-shadow: 1px -6px 5px black;
+}
+
+p{
+    width: 800px;
+    margin: auto;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
